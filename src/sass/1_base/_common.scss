@@ -1,0 +1,46 @@
+
+/* GLOBAL ROLES */ 
+body {
+    font-family: Tajawal;
+    background-color: $bg;
+}
+
+hr {
+    width: 60%;
+    margin: 2rem 0;
+    opacity: 0.4;
+}
+
+h1 {
+    width: fit-content;
+    font-size: 3rem;
+    margin-top: -3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    width: 75%;
+    line-height: 2rem;
+}
+
+code {
+    background-color: $dark;
+    padding: 0.3rem 1rem 0.4rem 1rem;
+    margin: 0.5rem;
+    color: #fff;
+    transition: all 200ms ease-in-out; 
+
+    > a {
+        color: inherit;
+    }
+}
+
+code:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    color: $dark;
+    box-shadow: 0 0 1rem rgba($dark , 0.2);
+}

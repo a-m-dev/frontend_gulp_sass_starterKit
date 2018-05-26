@@ -1,3 +1,6 @@
+Structure GoesLike this:
+
+
 -- src
    |-- img
    |   |-- img.jpg
