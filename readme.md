@@ -1,4 +1,4 @@
-# Structure GoesLike this:
+# Structure Goes Like This:
 
 ```
 -- src
