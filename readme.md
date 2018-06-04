@@ -1,4 +1,4 @@
-# Structure Goes Like This:
+# Folder structure Goes Like This:
 
 ```
 -- src
