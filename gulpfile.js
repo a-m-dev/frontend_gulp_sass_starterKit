@@ -27,7 +27,7 @@ gulp.task('markup' , () => {
 gulp.task('sass' , () => {
     gulp.src('src/sass/app.scss')
         .pipe(wait(500)) // this will prevent from "@import file could not find or is unreadable"
-        .pipe(sass().on('error' , sass.logError))
+        .pipe(sass().on('error' , sass.logError)) // on error will prevent from killing server when you made a mistake on variable name or something like that ...
         .pipe(gulp.dest('public/css'))
         .pipe(browserSync.stream())
 })
