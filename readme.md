@@ -8,7 +8,7 @@
    |   |-- app.js
    |-- sass
    |   |-- 0_dependencies
-   |   |   |-- _frameworks, Like bootstrap & boutbon
+   |   |   |-- _frameworks, Like bootstrap & bourbon
    |   |   |-- _variables
    |   |   |-- _mixins
    |   |   |-- _function
